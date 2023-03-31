@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">muhammadg</string>
+    <string name="nama_pembeli">Nama Pembeli :</string>
+    <string name="judul_ebook">Judul Ebook :</string>
+    <string name="jumlah_beli">Jumlah Beli:</string>
+    <string name="harga_rp">Harga : Rp</string>
+    <string name="uang_bayar_rp">Uang Bayar: Rp</string>
+    <string name="proses">PROSES</string>
+    <string name="total_belanja">Total Belanja</string>
+    <string name="uang_kembali">Uang Kembali</string>
+    <string name="bonus">Bonus</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="reset_data">RESET DATA</string>
+    <string name="keluar">KELUAR</string>
 </resources>
