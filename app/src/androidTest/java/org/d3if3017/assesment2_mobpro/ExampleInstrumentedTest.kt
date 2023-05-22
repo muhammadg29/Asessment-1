@@ -1,4 +1,4 @@
-package org.d3if3017.muhammadg
+package org.d3if3017.assesment2_mobpro
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("org.d3if3017.muhammadg", appContext.packageName)
+        assertEquals("org.d3if3017", appContext.packageName)
     }
 }

@@ -1,4 +1,4 @@
-package org.d3if3017.muhammadg
+package org.d3if3017.assesment2_mobpro
 
 import org.junit.Test
 
