@@ -1,4 +1,4 @@
-package org.d3if3017.assesment2_mobpro.ui.hitung
+package org.d3if3017.assesment3_mobpro.ui.hitung
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,10 +7,10 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.d3if3017.assesment2_mobpro.db.AmoebaDao
-import org.d3if3017.assesment2_mobpro.db.AmoebaEntity
-import org.d3if3017.assesment2_mobpro.model.HasilAmoeba
-import org.d3if3017.assesment2_mobpro.model.hitungAmoeba
+import org.d3if3017.assesment3_mobpro.db.AmoebaDao
+import org.d3if3017.assesment3_mobpro.db.AmoebaEntity
+import org.d3if3017.assesment3_mobpro.model.HasilAmoeba
+import org.d3if3017.assesment3_mobpro.model.hitungAmoeba
 
 class HitungViewModel(private val db: AmoebaDao): ViewModel() {
 

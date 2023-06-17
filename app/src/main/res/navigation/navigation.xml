@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/hitungFragment"
-        android:name="org.d3if3017.assesment2_mobpro.ui.hitung.HitungFragment"
+        android:name="org.d3if3017.assesment3_mobpro.ui.hitung.HitungFragment"
         android:label="AmoebaApps"
         tools:layout="@layout/fragment_hitung" >
         <action
@@ -28,12 +28,12 @@
     </fragment>
     <fragment
         android:id="@+id/historiFragment"
-        android:name="org.d3if3017.assesment2_mobpro.ui.histori.HistoriFragment"
+        android:name="org.d3if3017.assesment3_mobpro.ui.histori.HistoriFragment"
         android:label="@string/histori"
         tools:layout="@layout/fragment_histori" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="org.d3if3017.assesment2_mobpro.ui.AboutFragment"
+        android:name="org.d3if3017.assesment3_mobpro.ui.AboutFragment"
         android:label="@string/tentang_aplikasi"
         tools:layout="@layout/fragment_about"/>
 </navigation>

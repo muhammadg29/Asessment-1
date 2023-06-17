@@ -1,6 +1,6 @@
-package org.d3if3017.assesment2_mobpro.model
+package org.d3if3017.assesment3_mobpro.model
 
-import org.d3if3017.assesment2_mobpro.db.AmoebaEntity
+import org.d3if3017.assesment3_mobpro.db.AmoebaEntity
 
 fun AmoebaEntity.hitungAmoeba(): HasilAmoeba {
     val jumlahWaktuPembelahan = jangkaWaktu.toDouble() /  rentangWaktu.toDouble()

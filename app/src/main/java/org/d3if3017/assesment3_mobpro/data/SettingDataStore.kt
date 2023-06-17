@@ -1,4 +1,4 @@
-package org.d3if3017.assesment2_mobpro.data
+package org.d3if3017.assesment3_mobpro.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore

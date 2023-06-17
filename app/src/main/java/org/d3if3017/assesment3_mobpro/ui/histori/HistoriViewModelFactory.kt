@@ -1,8 +1,8 @@
-package org.d3if3017.assesment2_mobpro.ui.histori
+package org.d3if3017.assesment3_mobpro.ui.histori
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.d3if3017.assesment2_mobpro.db.AmoebaDao
+import org.d3if3017.assesment3_mobpro.db.AmoebaDao
 
 class HistoriViewModelFactory(
     private val db: AmoebaDao

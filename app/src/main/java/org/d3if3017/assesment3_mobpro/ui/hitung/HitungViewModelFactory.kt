@@ -1,8 +1,8 @@
-package org.d3if3017.assesment2_mobpro.ui.hitung
+package org.d3if3017.assesment3_mobpro.ui.hitung
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.d3if3017.assesment2_mobpro.db.AmoebaDao
+import org.d3if3017.assesment3_mobpro.db.AmoebaDao
 
 class HitungViewModelFactory(
     private val db: AmoebaDao

@@ -6,6 +6,7 @@
     <string name="rentang_waktu_hint">Rentang waktu membelah (menit)</string>
     <string name="jangka_waktu_hint">Jangka waktu (menit)</string>
     <string name="reset">Reset</string>
+    <string name="message">%1$s diklik!</string>
     <string name="hitung">Hitung</string>
     <string name="jumlah_awal_amoeba_kosong">Jumlah awal amoeba harus diisi!</string>
     <string name="jumlah_pembelahan_amoeba_kosong">Jumlah pembelahan amoeba harus diisi!</string>
@@ -13,6 +14,10 @@
     <string name="jangka_waktu_kosong">Jangka waktu harus diisi!</string>
     <string name="belum_ada_data">Belum ada data</string>
     <string name="amoeba_awal">Amoeba awal: %1$s</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data Amoeba otomatis</string>
+    <string name="notif_title">Ada Amoeba baru!</string>
+    <string name="notif_text">Cek sekarang biar nggak penasaran..</string>
     <string name="pembelahan_amoeba">Pembelahan amoeba: %1$s</string>
     <string name="rentang_waktu">Rentang waktu: %1$s</string>
     <string name="jangka_waktu">Jangka waktu: %1$s</string>
@@ -27,4 +32,5 @@
     <string name="konfirmasi_hapus">Yakin Semua Histori akan Dihapus</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="koneksi_error">Koneksi Error</string>
 </resources>

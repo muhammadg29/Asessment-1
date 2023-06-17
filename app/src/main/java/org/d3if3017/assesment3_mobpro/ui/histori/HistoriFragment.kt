@@ -1,4 +1,4 @@
-package org.d3if3017.assesment2_mobpro.ui.histori
+package org.d3if3017.assesment3_mobpro.ui.histori
 
 import android.os.Bundle
 import android.view.*
@@ -9,10 +9,10 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.d3if3017.assesment2_mobpro.R
-import org.d3if3017.assesment2_mobpro.databinding.FragmentHistoriBinding
-import org.d3if3017.assesment2_mobpro.db.AmoebaDb
-import org.d3if3017.assesment2_mobpro.db.AmoebaEntity
+import org.d3if3017.assesment3_mobpro.R
+import org.d3if3017.assesment3_mobpro.databinding.FragmentHistoriBinding
+import org.d3if3017.assesment3_mobpro.db.AmoebaDb
+import org.d3if3017.assesment3_mobpro.db.AmoebaEntity
 
 class HistoriFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package org.d3if3017.assesment2_mobpro.ui.histori
+package org.d3if3017.assesment3_mobpro.ui.histori
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.d3if3017.assesment2_mobpro.R
-import org.d3if3017.assesment2_mobpro.databinding.ItemHistoriBinding
-import org.d3if3017.assesment2_mobpro.db.AmoebaEntity
-import org.d3if3017.assesment2_mobpro.model.hitungAmoeba
+import org.d3if3017.assesment3_mobpro.R
+import org.d3if3017.assesment3_mobpro.databinding.ItemHistoriBinding
+import org.d3if3017.assesment3_mobpro.db.AmoebaEntity
+import org.d3if3017.assesment3_mobpro.model.hitungAmoeba
 
 class HistoriAdapter() : ListAdapter<AmoebaEntity, HistoriAdapter.ViewHolder>(DIFF_CALLBACK) {
 

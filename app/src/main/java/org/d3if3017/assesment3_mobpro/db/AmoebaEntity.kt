@@ -1,4 +1,4 @@
-package org.d3if3017.assesment2_mobpro.db
+package org.d3if3017.assesment3_mobpro.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,4 +1,4 @@
-package org.d3if3017.assesment2_mobpro.ui.hitung
+package org.d3if3017.assesment3_mobpro.ui.hitung
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,12 +12,13 @@ import androidx.lifecycle.asLiveData
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import kotlinx.coroutines.launch
-import org.d3if3017.assesment2_mobpro.R
-import org.d3if3017.assesment2_mobpro.data.SettingDataStore
-import org.d3if3017.assesment2_mobpro.data.dataStore
-import org.d3if3017.assesment2_mobpro.databinding.FragmentHitungBinding
-import org.d3if3017.assesment2_mobpro.db.AmoebaDb
-import org.d3if3017.assesment2_mobpro.model.HasilAmoeba
+import org.d3if3017.assesment3_mobpro.R
+import org.d3if3017.assesment3_mobpro.data.SettingDataStore
+import org.d3if3017.assesment3_mobpro.data.dataStore
+import org.d3if3017.assesment3_mobpro.databinding.FragmentHitungBinding
+import org.d3if3017.assesment3_mobpro.db.AmoebaDb
+import org.d3if3017.assesment3_mobpro.model.HasilAmoeba
+import org.d3if3017.assesment3_mobpro.ui.berkembang_biak.BerkembangActivity
 import kotlin.math.floor
 import kotlin.math.roundToInt
 
@@ -43,7 +44,13 @@ class HitungFragment : Fragment() {
         setHasOptionsMenu(true)
         binding.btnHitung.setOnClickListener{hitungAmoeba()}
         binding.btnReset.setOnClickListener{reset()}
+        binding.btnAPI.setOnClickListener { lanjutAPI() }
         return binding.root
+    }
+
+    private fun lanjutAPI() {
+        val lanjut = Intent(requireContext(), BerkembangActivity::class.java)
+        startActivity(lanjut)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

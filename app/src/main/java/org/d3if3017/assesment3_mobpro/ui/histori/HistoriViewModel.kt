@@ -1,12 +1,12 @@
-package org.d3if3017.assesment2_mobpro.ui.histori
+package org.d3if3017.assesment3_mobpro.ui.histori
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.d3if3017.assesment2_mobpro.db.AmoebaDao
-import org.d3if3017.assesment2_mobpro.db.AmoebaEntity
+import org.d3if3017.assesment3_mobpro.db.AmoebaDao
+import org.d3if3017.assesment3_mobpro.db.AmoebaEntity
 
 class HistoriViewModel(private val db: AmoebaDao) : ViewModel() {
     val data = db.getLastBmi()
